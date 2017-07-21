@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.frankdura.databasetest.MainActivity">
+
+   <LinearLayout
+       android:orientation="vertical"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+       <Button
+           android:id="@+id/create_database"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="create database"/>
+       <Button
+           android:id="@+id/add_data"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="insert date"/>
+       <Button
+           android:text="show data"
+           android:id="@+id/show_data"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content" />
+   </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
